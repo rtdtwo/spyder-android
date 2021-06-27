@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/apps"
+        android:icon="@drawable/ic_round_apps_24"
+        android:title="Apps" />
+    <item
+        android:id="@+id/analysis"
+        android:icon="@drawable/ic_round_analytics_24"
+        android:title="Analysis" />
+</menu>

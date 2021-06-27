@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Spyder" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/midnightBlue</item>
+        <item name="colorPrimaryVariant">@color/midnightBlueDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/tomato</item>
+        <item name="colorSecondaryVariant">@color/pomegranate</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:background">@color/midnightBlue</item>
+    </style>
+    <style name="BottomNavTheme" parent="Theme.Spyder">
+        <item name="colorPrimary">@color/tomato</item>
+        <item name="colorPrimaryVariant">@color/tomato</item>
+        <item name="colorOnPrimary">@color/gray</item>
+        <item name="android:background">@color/midnightBlueDark</item>
+        <item name="backgroundTint">@color/midnightBlueDark</item>
+    </style>
+</resources>
